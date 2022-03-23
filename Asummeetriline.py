@@ -52,8 +52,8 @@ while i < len(jarjenda): # encryption
     sifer.append(abimuutuja)
     i += 1
 
-print("Jäägid on: ")
-print(sifer)
+#print("Jäägid on: ")
+#print(sifer)
 
 private = []
 
@@ -89,6 +89,7 @@ while i < len(sifer)+f: #to text
     else:
         d = str(d) + str(sifer[i-j])
         i += 1
+print("Krüpteeritud sõnum: ")
 print(d)
 
 
@@ -136,4 +137,7 @@ while i < len(jarjenda): #decrypt
 
 for x in jarjenda:
     dekrupteeritud = dekrupteeritud + str(x)
+print("Dekrüpteeritud sõnum: ")
 print(dekrupteeritud)
+
+test = str(input(" "))
