@@ -89,6 +89,7 @@ while i < len(sifer)+f: #to text
     else:
         d = str(d) + str(sifer[i-j])
         i += 1
+print(" ")
 print("Krüpteeritud sõnum: ")
 print(d)
 
@@ -137,6 +138,7 @@ while i < len(jarjenda): #decrypt
 
 for x in jarjenda:
     dekrupteeritud = dekrupteeritud + str(x)
+print(" ")
 print("Dekrüpteeritud sõnum: ")
 print(dekrupteeritud)
 
